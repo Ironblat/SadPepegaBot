@@ -85,26 +85,6 @@ async def mester(ctx):
 
 
 @client.command()
-async def pcjani(ctx):
-        pc = discord.Embed(
-            title='PC',
-            description='',
-            colour=discord.Colour.red()
-
-        )
-        pc.add_field(name="Gépház", value="https://www.pcx.hu/zeus-gaming-midi-prodigy-a65-650w-szamitogephaz-00927324",
-                     inline=False)
-        pc.add_field(name="Alaplap", value="https://www.pcx.hu/gigabyte-b450m-s2h-alaplap-00135138",
-                     inline=False)
-        pc.add_field(name="Processzor", value="https://hardverapro.hu/apro/elado_amd_ryzen_5_2600_4/hsz_1-50.html",
-                     inline=False)
-        pc.add_field(name="RAM", value="https://www.pcx.hu/kingston-8gb-ddr4-3200mhz-hyperx-fury-hx432c16fb3-8-memoria-00179803",
-                     inline=False)
-
-        await ctx.send(embed=pc)
-
-
-@client.command()
 async def verzió(ctx):
  verzio = discord.Embed(
     title='',
